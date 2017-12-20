@@ -4,6 +4,8 @@ import json #html是一个json的字符串，需要用此模块编译成字典
 
 
 content = input('请输入翻译的内容：')
+url = 'http://fanyi.youdao.com/translate'
+date = {}
 date['type'] = 'AUTO'
 date['i'] = content
 date['doctype'] = 'json'
